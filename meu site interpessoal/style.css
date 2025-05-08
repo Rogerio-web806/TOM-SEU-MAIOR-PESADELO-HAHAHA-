@@ -1,0 +1,70 @@
+/*  vamos estilizar sempre o elemento ( body, main, footer, etc) */
+
+body {
+    background-color: cornsilk;
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* BACKGROUD = cor do fundo */
+/*  COLOR= cor da fonte */
+/*  font-famyli = fonte em que se escreve */
+/* padding espaçamento */
+/* justify-content = ajusta a posição das letras */
+/*  display ajusta a possção das coias */
+/*  margin = margem entre as letras ou coisas */
+/*  text decoration = decoração de texto */
+/* heigt = altura */
+/*  max- witdh = tamanho maximo da imagem */
+/*  box shadow = coloca uma sombra */
+/* font-size = tamanho da fonte */
+
+nav {
+    background-color: rgb(231, 224, 221);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: darksalmon;
+    padding: 5px 10px;
+    display: block;
+    transition: backgroud-color 0.3s ease;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
